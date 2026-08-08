@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-[#0b0f1a] antialiased;
+}
+
+/* Rotating gradient-border glow used on featured tool cards */
+.tool-card {
+  position: relative;
+  border-radius: 22px;
+  padding: 2px;
+  background: #e7eaf2;
+  transition: transform 0.3s ease;
+}
+.tool-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 22px;
+  padding: 2px;
+  background: conic-gradient(from 0deg, transparent 0%, #2f6ffb 20%, transparent 45%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  animation: spin 3.5s linear infinite paused;
+}
+.tool-card:hover::before {
+  opacity: 1;
+  animation-play-state: running;
+}
+.tool-card:hover {
+  transform: translateY(-6px);
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .tool-card::before {
+    animation: none !important;
+  }
+}
