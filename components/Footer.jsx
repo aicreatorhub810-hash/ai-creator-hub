@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Sparkles, Twitter, Instagram, Youtube } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { categories } from "@/lib/data";
 
 export default function Footer() {
@@ -14,18 +14,34 @@ export default function Footer() {
               </span>
               <span className="font-display">AI Creator Hub</span>
             </Link>
+
             <p className="text-sm leading-relaxed max-w-[280px] mb-5">
               A curated directory of AI tools for creators and businesses, reviewed hands-on and updated every week.
             </p>
+
             <div className="flex gap-3">
-              <a href="#" aria-label="X / Twitter" className="w-9 h-9 rounded-[10px] bg-white/6 flex items-center justify-center hover:bg-blue hover:text-white transition-colors">
-                <Twitter size={16} />
+              <a
+                href="#"
+                aria-label="X / Twitter"
+                className="w-9 h-9 rounded-[10px] bg-white/6 flex items-center justify-center hover:bg-blue hover:text-white transition-colors text-xs font-semibold"
+              >
+                X
               </a>
-              <a href="#" aria-label="Instagram" className="w-9 h-9 rounded-[10px] bg-white/6 flex items-center justify-center hover:bg-blue hover:text-white transition-colors">
-                <Instagram size={16} />
+
+              <a
+                href="#"
+                aria-label="Instagram"
+                className="w-9 h-9 rounded-[10px] bg-white/6 flex items-center justify-center hover:bg-blue hover:text-white transition-colors text-xs font-semibold"
+              >
+                IG
               </a>
-              <a href="#" aria-label="YouTube" className="w-9 h-9 rounded-[10px] bg-white/6 flex items-center justify-center hover:bg-blue hover:text-white transition-colors">
-                <Youtube size={16} />
+
+              <a
+                href="#"
+                aria-label="YouTube"
+                className="w-9 h-9 rounded-[10px] bg-white/6 flex items-center justify-center hover:bg-blue hover:text-white transition-colors text-xs font-semibold"
+              >
+                YT
               </a>
             </div>
           </div>
@@ -65,6 +81,7 @@ export default function Footer() {
 
         <div className="border-t border-line-dark pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[13px]">
           <span>© {new Date().getFullYear()} AI Creator Hub. All rights reserved.</span>
+
           <div className="flex gap-5">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
