@@ -8,7 +8,7 @@ export const metadata = {
 
 const CRITERIA = [
   [CheckCircle2, "Actually useful", "Solves a real problem for creators or small businesses — not a thin wrapper on an existing API."],
-  [ShieldCheck, "Hands-on tested", "We test every submission ourselves before it's listed. No pay-to-list shortcuts."],
+  [ShieldCheck, "Research verified", "We review submissions for relevance and quality before listing them."],
   [Clock, "Actively maintained", "The tool is updated and supported, not an abandoned side project."],
 ];
 

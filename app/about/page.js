@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div>
             <h2 className="font-display text-2xl font-bold mb-3.5">How tools get listed</h2>
             <p className="text-muted leading-relaxed mb-4">
-              Every tool on this site is used hands-on before it's added — not judged from a landing page or a press release. That means testing the free tier where one exists, checking how the tool performs on a real task, and being upfront about where it falls short.
+              Every tool on this site is researched before it is added. We review publicly available information such as features, pricing and use cases, while being transparent about what we know.
             </p>
             <p className="text-muted leading-relaxed">
               Tools are re-checked periodically, and anything that stops meeting the bar — a feature removed, a price hike with no added value, a quality drop — is updated or removed rather than left listed out of convenience.
@@ -53,7 +53,7 @@ export default function AboutPage() {
           <h2 className="font-display text-2xl font-bold mb-10 text-center">What guides every review</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              [ShieldCheck, "Hand-tested", "Used on a real task before it earns a spot."],
+              [ShieldCheck, "Research-based", "Reviewed for features, pricing and practical use cases."],
               [Award, "Unbiased", "Ranked on output quality and pricing, not payouts."],
               [RefreshCcw, "Current", "Re-checked and updated on a regular schedule."],
               [Users, "Creator-first", "Picked with a solo creator's time and budget in mind."],

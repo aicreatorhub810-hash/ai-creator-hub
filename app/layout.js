@@ -32,14 +32,14 @@ export const metadata = {
   openGraph: {
     title: "AI Creator Hub",
     description:
-      "Discover the best AI tools for creators and businesses, hand-tested and reviewed weekly.",
+      "Discover the best AI tools for creators and businesses, researched and kept up to date.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Creator Hub",
     description:
-      "Discover the best AI tools for creators and businesses, hand-tested and reviewed weekly.",
+      "Discover the best AI tools for creators and businesses, researched and kept up to date.",
   },
 };
 

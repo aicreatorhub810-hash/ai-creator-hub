@@ -37,7 +37,7 @@ export default function AffiliateDisclosurePage() {
           <div>
             <h2 className="font-display text-lg font-bold text-[#0b0f1a] mb-2.5">How this affects our reviews</h2>
             <p>
-              It doesn't. Every tool listed is tested hands-on before it's added, and ratings reflect actual output
+              It doesn't. Listings are researched using publicly available information, and any affiliate relationship is disclosed
               quality and pricing — not which program pays the highest commission. Tools without any affiliate
               relationship are reviewed and ranked using the exact same process as tools that do have one.
             </p>

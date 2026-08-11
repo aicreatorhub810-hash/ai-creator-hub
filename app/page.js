@@ -70,7 +70,7 @@ export default function HomePage() {
               Editor's picks this month
             </h2>
             <p className="text-muted text-base leading-relaxed">
-              Hand-tested tools that consistently save creators time and deliver real results.
+              Curated tools selected for creators, businesses and practical workflows..
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -98,7 +98,7 @@ export default function HomePage() {
               Find tools built for your workflow
             </h2>
             <p className="text-muted text-base leading-relaxed">
-              Five focused categories, each reviewed by people who actually use the tools day to day.
+              Five focused categories covering the most useful AI workflows for creators and businesses.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
@@ -141,17 +141,17 @@ export default function HomePage() {
           <div className="max-w-[640px] mx-auto text-center mb-12">
             <span className="font-mono text-blue-glow text-xs font-semibold block mb-3.5">WHY TRUST AI CREATOR HUB</span>
             <h2 className="font-display text-3xl sm:text-4xl font-bold tracking-tight mb-3.5">
-              Reviewed by people who actually use these tools
+              Practical AI tool recommendations
             </h2>
             <p className="text-muted-dark text-base leading-relaxed">
-              No sponsored rankings, no filler lists. Every recommendation is tested against real creator workflows.
+              No sponsored rankings, no filler lists. Recommendations focus on useful features, workflows and pricing.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              [ShieldCheck, "Hand-tested, not scraped", "Every tool listed is used firsthand before it earns a place on the site."],
+              [ShieldCheck, "Curated and researched", "Every tool is researched and described using publicly available information."],
               [Award, "Unbiased reviews", "Rankings are based on output quality and pricing, never on affiliate payouts."],
-              [RefreshCcw, "Updated weekly", "New tools are added and outdated ones are retired every single week."],
+              [RefreshCcw, "Kept up to date", "Tools, features and pricing are updated as information changes."],
               [Users, "Creator-first picks", "Built by a solo creator, for creators — recommendations that respect your time and budget."],
             ].map(([Icon, title, desc]) => (
               <div
