@@ -53,7 +53,7 @@ export default function AffiliateDisclosurePage() {
           <div>
             <h2 className="font-display text-lg font-bold text-[#0b0f1a] mb-2.5">Questions</h2>
             <p>
-              If you have any questions about a specific link or listing, email hello@aicreatorhub.example.com and
+              If you have any questions about a specific link or listing, email aicreatorhub810@gmail.com and
               we'll clarify.
             </p>
           </div>

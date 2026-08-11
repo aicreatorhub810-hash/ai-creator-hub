@@ -1,7 +1,7 @@
 import { tools, categories, articles } from "@/lib/data";
 
 export default function sitemap() {
-  const base = "https://aicreatorhub.example.com";
+  const base = "https://ai-creator-hub-woad.vercel.app";
   const staticRoutes = [
     "",
     "/tools",

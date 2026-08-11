@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="font-display text-lg font-bold text-[#0b0f1a] mb-2.5">6. Your rights</h2>
             <p>
               You can request access to, correction of, or deletion of your personal data at any time by emailing
-              hello@aicreatorhub.example.com. You can unsubscribe from the newsletter using the link in any email.
+              aicreatorhub810@gmail.com. You can unsubscribe from the newsletter using the link in any email.
             </p>
           </div>
           <div>
@@ -78,7 +78,7 @@ export default function PrivacyPolicyPage() {
           </div>
           <div>
             <h2 className="font-display text-lg font-bold text-[#0b0f1a] mb-2.5">9. Contact</h2>
-            <p>Questions about this policy can be sent to hello@aicreatorhub.example.com.</p>
+            <p>Questions about this policy can be sent to aicreatorhub810@gmail.com.</p>
           </div>
         </div>
       </div>

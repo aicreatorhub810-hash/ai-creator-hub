@@ -22,7 +22,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://aicreatorhub.example.com"),
+  metadataBase: new URL("https://ai-creator-hub-woad.vercel.app"),
   title: {
     default: "AI Creator Hub — Discover the Best AI Tools for Creators & Businesses",
     template: "%s | AI Creator Hub",

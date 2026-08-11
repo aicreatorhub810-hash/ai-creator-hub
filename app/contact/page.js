@@ -25,7 +25,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-sm mb-1">Email</p>
-                <p className="text-muted text-sm">hello@aicreatorhub.example.com</p>
+                <p className="text-muted text-sm">aicreatorhub810@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start gap-4">

@@ -19,7 +19,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-[820px] mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue/10 border border-blue/35 text-blue-glow text-xs font-mono mb-7">
             <span className="w-1.5 h-1.5 rounded-full bg-blue-glow shadow-[0_0_10px_#7fb2ff]" />
-            500+ AI TOOLS CURATED &amp; REVIEWED
+            10+ AI TOOLS CURATED &amp; REVIEWED
           </div>
           <h1 className="font-display text-[34px] sm:text-[46px] lg:text-[56px] leading-[1.1] font-bold tracking-tight mb-5">
             Discover the Best{" "}
@@ -47,8 +47,8 @@ export default function HomePage() {
           </div>
           <div className="flex items-center justify-center flex-wrap">
             {[
-              ["520+", "Tools Reviewed"],
-              ["40k+", "Monthly Readers"],
+              ["10+", "Tools Reviewed"],
+              ["New", "Growing Directory"],
               ["5", "Core Categories"],
               ["Weekly", "Fresh Additions"],
             ].map(([stat, label], i) => (
@@ -83,7 +83,7 @@ export default function HomePage() {
               href="/tools"
               className="inline-flex px-8 py-4 rounded-full font-semibold text-[15px] border border-line hover:border-blue hover:text-blue hover:-translate-y-0.5 transition"
             >
-              View All 520+ Tools
+              View All 10+ Tools
             </Link>
           </div>
         </div>

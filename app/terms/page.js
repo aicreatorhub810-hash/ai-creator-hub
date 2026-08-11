@@ -72,7 +72,7 @@ export default function TermsPage() {
           </div>
           <div>
             <h2 className="font-display text-lg font-bold text-[#0b0f1a] mb-2.5">9. Contact</h2>
-            <p>Questions about these terms can be sent to hello@aicreatorhub.example.com.</p>
+            <p>Questions about these terms can be sent to aicreatorhub810@gmail.com.</p>
           </div>
         </div>
       </div>

@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://aicreatorhub.example.com/sitemap.xml",
+    sitemap: "https://ai-creator-hub-woad.vercel.app/sitemap.xml",
   };
 }
