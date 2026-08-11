@@ -150,7 +150,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               [ShieldCheck, "Curated and researched", "Every tool is researched and described using publicly available information."],
-              [Award, "Unbiased reviews", "Rankings are based on output quality and pricing, never on affiliate payouts."],
+              [Award, "Research-based recommendations", "Listings are based on publicly available information about features, pricing and use cases, with affiliate relationships disclosed."],
               [RefreshCcw, "Kept up to date", "Tools, features and pricing are updated as information changes."],
               [Users, "Creator-first picks", "Built by a solo creator, for creators — recommendations that respect your time and budget."],
             ].map(([Icon, title, desc]) => (
